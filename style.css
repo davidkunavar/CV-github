@@ -1,7 +1,8 @@
 #video{
     position: fixed;
-    bottom: 0;
+    top: 0;
     right: 0;
+    height: 100vh;
 }
 .container{
     width: 100%;
@@ -16,13 +17,13 @@
 }
 .vsebina{
     width: 85vw;
-    height: 80vh;
+    height: 60vh;
     border-radius: 20px;
     font-family: 'Roboto Slab', serif;
     padding: 40px 20px;
     overflow: scroll;
     color: white;
-    font-size: 1.4em;
+    font-size: 1.8em;
     text-align: center;
     scroll-behavior: smooth;
 }
@@ -117,6 +118,7 @@ form button{
     .vsebina{
         font-size: 1.6em;
         width: 50vw;
+        height: 70vh;
     }
     .up{
         position: fixed;
@@ -130,4 +132,10 @@ form button{
 
     }
 
+}
+@media screen and (min-width: 1500px){
+    #video{
+        width: 100vw;
+        height: auto;
+    }
 }
