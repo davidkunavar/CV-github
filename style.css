@@ -26,12 +26,17 @@
     font-size: 1.8em;
     text-align: center;
     scroll-behavior: smooth;
+    font-weight: 300;
 }
 .vsebina h2, h3{
     font-weight: 500;
     letter-spacing:4px;
     color: darksalmon;
     width: 100%;
+}
+.vsebina h1 {
+    font-weight: 400;
+    margin-top: 0;
 }
 .vsebina::-webkit-scrollbar{
     display: none;
